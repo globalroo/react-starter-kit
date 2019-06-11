@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Simple snapshot tests for simple components using basic react-renderer I can render a <Basic /> component 1`] = `
+<div>
+  Basic Component
+</div>
+`;
+
+exports[`Simple snapshot tests for simple components using basic react-renderer I can render a <BasicWithDOMAttrs /> component 1`] = `
+<div>
+  <input
+    className="my-class"
+    data-qa="qa-hook"
+    readOnly={true}
+    tabIndex="1"
+  />
+</div>
+`;
+
+exports[`Simple snapshot tests for simple components using basic react-renderer I can render a <BasicWithEventHandler /> component 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    Click Me
+  </button>
+</div>
+`;
+
+exports[`Simple snapshot tests for simple components using basic react-renderer I can render a <BasicWithProps /> component 1`] = `
+<div>
+  Test
+</div>
+`;
